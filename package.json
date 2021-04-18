@@ -1,0 +1,27 @@
+{
+  "name": "npm-init",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JovaughnE/p3-ewing-jovaughn.git"
+  },
+  "keywords": [
+    "web",
+    "app"
+  ],
+  "author": "Jovaughn Ewing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JovaughnE/p3-ewing-jovaughn/issues"
+  },
+  "homepage": "https://github.com/JovaughnE/p3-ewing-jovaughn#readme",
+  "devDependencies": {
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
