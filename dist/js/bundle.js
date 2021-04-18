@@ -1,0 +1,1 @@
+(()=>{"use strict";const t=new class{constructor(t){this.title=t}}("ES6 App"),n=new class{constructor(t){this.bodyContent=t}}("Body Content!");new class{constructor(){this.renderTemplate()}renderTemplate(){const e=`   \n            <h1>${t.title}</h1>\n            <p>${n.bodyContent}</p>\n        \n        `;document.body.innerHTML=e}}})();
