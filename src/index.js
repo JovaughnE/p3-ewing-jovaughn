@@ -7,12 +7,14 @@ import { body } from './modules/body';
 class App {
     constructor() {
         this.renderTemplate();
+        
 
     }
 
     renderTemplate() { //method to run the template
         const template = `   
             <h1>${header.title}</h1>
+            <h2>${body.option}</h2>
             <p>${body.bodyContent}</p>
         
         `; // creating a template string
