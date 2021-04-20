@@ -12,10 +12,51 @@ class App {
     }
 
     renderTemplate() { //method to run the template
-        const template = `   
-            <h1>${header.title}</h1>
-            <h2>${body.option}</h2>
-            <p>${body.bodyContent}</p>
+        const template = `
+            <section class="lunchplate">
+                <img class="lunchshot" src="./img/item"></img>
+                <h1>${header.title}</h1>
+                <h2>${body.option}</h2>
+                <p>${body.bodyContent}</p>
+            </section>
+            <section class="lunchplate">
+                <img class="lunchshot" src="./img/item"></img>
+                <h1>${header.title}</h1>
+                <h2>${body.option}</h2>
+                <p>${body.bodyContent}</p>
+            </section>
+            <section class="lunchplate">
+                <img class="lunchshot" src="./img/item"></img>
+                <h1>${header.title}</h1>
+                <h2>${body.option}</h2>
+                <p>${body.bodyContent}</p>
+            </section>
+            <section class="lunchplate">
+                <img class="lunchshot" src="./img/item"></img>
+                <h1>${header.title}</h1>
+                <h2>${body.option}</h2>
+                <p>${body.bodyContent}</p>
+            </section>
+            <section class="lunchplate">
+                <img class="lunchshot" src="./img/item"></img>
+                <h1>${header.title}</h1>
+                <h2>${body.option}</h2>
+                <p>${body.bodyContent}</p>
+            </section>
+            <section class="lunchplate">
+                <img class="lunchshot" src="./img/item"></img>
+                <h1>${header.title}</h1>
+                <h2>${body.option}</h2>
+                <p>${body.bodyContent}</p>
+            </section>
+            <section class="lunchplate">
+                <img class="lunchshot" src="./img/item"></img>
+                <h1>${header.title}</h1>
+                <h2>${body.option}</h2>
+                <p>${body.bodyContent}</p>
+            </section>
+             
+
         
         `; // creating a template string
 
