@@ -5,5 +5,6 @@ class Header { // create a class for the header
     }
 }
 
-export const header = new Header('ES6 App'); //export the new class header as a variable
+export const header = new Header('Online Food App'); //export the new class header as a variable
 
+//export const nav = new Navigation(''); // Delete if not used
