@@ -10,6 +10,15 @@ body {
     color: blue;
     font-size: 1.2em;
 }
+
+
+section.lunchplate {
+    /* background: rgb(2,0,36); */
+    background: linear-gradient(90deg, rgba(2,0,36,1) -20%, rgba(72,182,80,1) 14%, rgba(40,185,139,1) 64%, rgba(0,212,255,1) 100%);
+}
+section.lunchplate {
+    color: #fff;
+}
 /*Header Styling*/
 
 #top{

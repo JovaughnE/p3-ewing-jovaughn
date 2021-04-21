@@ -18,24 +18,28 @@ class App {
                 <h1>${header.title}</h1>
                 <h2>${body.option}</h2>
                 <p>${body.bodyContent}</p>
-            </section>
-
-        
+            </section>      
         `; // creating a template string
-        const navigationTemplate = `
-            <nav id="navbar">
-                <ul id="navcontent">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="contact.html">ContactUs</a></li>
-                </ul>
-            </nav>
-        `
+  
         document.body.innerHTML = template; // method to render the template to the screen
-        document.createElement.header.innerHTML = navigationTemplate;
+        document.createElement("button");   // Create a <button> element
+        btn.innerHTML = "Next Meal";        // Insert text
+        document.body.appendChild(btn);     // Append <button> to <body>
+
     }
 }
+
+<div class="container">
+	<div class="row text-center">
+		<h3>
+			Feeling hungry?
+		</h3>
+		<h5>Get a random meal by clicking below</h5>
+		<button class="button-primary" id="get_meal">Get Meal 🍔</button>
+
+	</div>
+	<div id="meal" class="row meal"></div>
+</div>
 
 //initialize the App class
 
@@ -95,5 +99,17 @@ new App;
                 this.turkey = turkey;
             }
         }
+
+        // Saving this for later if I need it
+              const navigationTemplate = `
+            <nav id="navbar">
+                <ul id="navcontent">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="contact.html">ContactUs</a></li>
+                </ul>
+            </nav>
+        `
 
 export { App };*/
