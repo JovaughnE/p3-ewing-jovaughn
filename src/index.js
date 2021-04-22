@@ -14,32 +14,45 @@ class App {
     renderTemplate() { //method to run the template
         const template = `
             <section class="lunchplate">
-                <img class="lunchshot" src="./img/item"></img>
                 <h1>${header.title}</h1>
                 <h2>${body.option}</h2>
                 <p>${body.bodyContent}</p>
-            </section>      
+                <button class="btn">Try Again</button>
+            </section>
+            <div class="menu-item">
+                <img class="lunchshot" src="./img/item"></img>
+                <h3 class="recipe-title">${body.recipeTitle}</h3>
+                <p class="ingredients">${body.ingredients}</p>
+                <p class="ingredients">${body.ingredients}</p>
+                <p class="ingredients">${body.ingredients}</p>
+                <p class="ingredients">${body.ingredients}</p>
+                <p class="ingredients">${body.ingredients}</p>
+                <p class="ingredients">${body.ingredients}</p>
+                <p class="ingredients">${body.ingredients}</p>
+                <p class="ingredients">${body.ingredients}</p>
+            </div>
+
         `; // creating a template string
   
         document.body.innerHTML = template; // method to render the template to the screen
-        document.createElement("button");   // Create a <button> element
+        document.getElementsByClassName(".btn");   // Create a <button> element
         btn.innerHTML = "Next Meal";        // Insert text
         document.body.appendChild(btn);     // Append <button> to <body>
 
     }
 }
 
-<div class="container">
+/*<div class="container">
 	<div class="row text-center">
 		<h3>
 			Feeling hungry?
 		</h3>
 		<h5>Get a random meal by clicking below</h5>
-		<button class="button-primary" id="get_meal">Get Meal 🍔</button>
+		<button class="button-primary" id="get_meal">Get Meal</button>
 
 	</div>
 	<div id="meal" class="row meal"></div>
-</div>
+</div> */
 
 //initialize the App class
 

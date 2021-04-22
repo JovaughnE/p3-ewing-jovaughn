@@ -13,13 +13,23 @@ body {
 
 
 section.lunchplate {
-    /* background: rgb(2,0,36); */
-    background: linear-gradient(90deg, rgba(2,0,36,1) -20%, rgba(72,182,80,1) 14%, rgba(40,185,139,1) 64%, rgba(0,212,255,1) 100%);
+    color: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgb(2, 0, 36) -20%, rgb(72, 182, 80) 14%, rgb(40, 185, 139) 64%, rgb(0, 212, 255) 100%);
+    text-align: center;
+    margin: 5%;
+    padding: 5% 2%;
+    border: 4px solid rgb(209, 161, 28);
+    border-radius: 12px;
 }
-section.lunchplate {
-    color: #fff;
+
+img {
+    display: block;
+    margin: 10% 50%;
+    max-width: 100%;
+    border: rgb(209 161 28);
+    border-width: 4px;
 }
-/*Header Styling*/
+/*Header Styling
 
 #top{
     color:rgb(245, 10, 10);
@@ -35,7 +45,7 @@ section.lunchplate {
 }
 /* Navigation bar styling*/
 
-/*Navbar image styling*/
+/*Navbar image styling
 #navbar img{
     display:block;
     width: 50px;
@@ -44,7 +54,7 @@ section.lunchplate {
     margin-bottom: 3px;
 }
 
-/*Navbar Functionality*/
+/*Navbar Functionality
 #navbar{
     display:flex;
     flex-direction: column;
@@ -58,14 +68,14 @@ section.lunchplate {
 }
 
 
-/*Navbar content functionality*/
+/*Navbar content functionality
 #navcontent{
     display: flex;
     justify-content: center;
 }
 
 
-/*Navbar content styling*/
+/*Navbar content styling
 ul li{
     list-style: none;
     margin: 15px;
@@ -82,7 +92,7 @@ ul li a:hover{
     border-radius: 10px;
 }
 
-/* website background image designing */
+/* website background image designing
 #container1{
     position: relative;
     display: flex;
@@ -118,15 +128,16 @@ ul li a:hover{
     margin-top: 35px;
 }
 /*Button Styling*/
-.btn{
-    margin-top:15px;
-    border: 3px solid white;
-    border-radius:15px;
-    background-color:yellow;
-    font-size:20px;
-    font-weight: bold;
-    font-family: 'Ubuntu Mono', monospace;
+.btn {
+    margin-top: 25px;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: #dab257;
+    font-size: 18px;
+    /* font-weight: bold; */
+    /* font-family: "Ubuntu Mono", monospace; */
 }
+
 .btn:hover{
     cursor: pointer;
     background-color: red;
