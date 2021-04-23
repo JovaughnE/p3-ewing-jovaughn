@@ -17,24 +17,19 @@ class App {
                 <h1>${header.title}</h1>
                 <h2>${body.option}</h2>
                 <p>${body.bodyContent}</p>
-                <button class="btn">Try Again</button>
+                <button class="btn" id="get_meal">Next Meal</button>
             </section>
+            `
+        const template2 = `
             <div class="menu-item">
                 <img class="lunchshot" src="./img/item"></img>
                 <h3 class="recipe-title">${body.recipeTitle}</h3>
                 <p class="ingredients">${body.ingredients}</p>
-                <p class="ingredients">${body.ingredients}</p>
-                <p class="ingredients">${body.ingredients}</p>
-                <p class="ingredients">${body.ingredients}</p>
-                <p class="ingredients">${body.ingredients}</p>
-                <p class="ingredients">${body.ingredients}</p>
-                <p class="ingredients">${body.ingredients}</p>
-                <p class="ingredients">${body.ingredients}</p>
             </div>
-
-        `; // creating a template string
+            `; // creating a template string
   
         document.body.innerHTML = template; // method to render the template to the screen
+        document.body.innerHTML = template2; // method to render the template to the screen
         document.getElementsByClassName(".btn");   // Create a <button> element
         btn.innerHTML = "Next Meal";        // Insert text
         document.body.appendChild(btn);     // Append <button> to <body>
